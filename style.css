@@ -1,0 +1,28 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-image: url('/background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+p{
+  color: #383838;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.drop-down{
+  background-color:rgb(223, 227, 231);
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+  padding: 2px 10px;
+}
+
+button{
+  background: none;
+  border: none;
+  cursor:pointer;
+}
